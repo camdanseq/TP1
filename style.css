@@ -1,70 +1,39 @@
-/* FUENTE GENERAL */
-body {
-    font-family: "Nunito", sans-serif;
-}
-
-/* NAVBAR */
+/* NAVBAR FONDO */
 .navbar {
-    padding: 15px 0;
-    background-color: #f0dee2;
+    background-color: #f0dee2 !important;
 }
 
-/* LOGO / NOMBRE */
+/* TEXTO LOGO */
 .navbar-brand {
+    color: #0b0a33 !important;
     font-weight: 800;
-    font-size: 1.4rem;
-    color: #0b0a33;
 }
 
 /* LINKS */
 .nav-link {
-    color: #cbd5f5 !important;
-    margin-left: 15px;
-    transition: all 0.3s ease;
-    position: relative;
+    color: #0b0a33 !important;
 }
 
-/* HOVER EFECTO */
+/* HOVER */
 .nav-link:hover {
-    color: #ffffff !important;
-}
-
-/* LINEA ANIMADA ABAJO */
-.nav-link::after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background: #38bdf8;
-    left: 0;
-    bottom: 0;
-    transition: 0.3s;
-}
-
-.nav-link:hover::after {
-    width: 100%;
+    color: #000000 !important;
 }
 
 /* LINK ACTIVO */
 .nav-link.active {
-    color: #38bdf8 !important;
+    font-weight: 700;
 }
 
 /* DROPDOWN */
 .dropdown-menu {
-    border-radius: 10px;
-    border: none;
+    background-color: #f0dee2;
+}
+
+/* ITEMS DROPDOWN */
+.dropdown-item {
+    color: #0b0a33;
 }
 
 .dropdown-item:hover {
-    background-color: #f1f5f9;
-}
-
-/* BOTON HAMBURGUESA (mobile) */
-.navbar-toggler {
-    border: none;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
+    background-color: #e8cfd5;
 }
