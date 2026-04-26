@@ -6,14 +6,14 @@ body {
 /* NAVBAR */
 .navbar {
     padding: 15px 0;
-    background-color: #0f172a !important; /* azul oscuro */
+    background-color: #f0dee2;
 }
 
 /* LOGO / NOMBRE */
 .navbar-brand {
     font-weight: 800;
     font-size: 1.4rem;
-    color: #ffffff !important;
+    color: #0b0a33;
 }
 
 /* LINKS */
