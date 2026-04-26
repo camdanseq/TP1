@@ -1,0 +1,70 @@
+/* FUENTE GENERAL */
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 15px 0;
+    background-color: #0f172a !important; /* azul oscuro */
+}
+
+/* LOGO / NOMBRE */
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: #ffffff !important;
+}
+
+/* LINKS */
+.nav-link {
+    color: #cbd5f5 !important;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* HOVER EFECTO */
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* LINEA ANIMADA ABAJO */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #38bdf8;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* LINK ACTIVO */
+.nav-link.active {
+    color: #38bdf8 !important;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    border-radius: 10px;
+    border: none;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f5f9;
+}
+
+/* BOTON HAMBURGUESA (mobile) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
